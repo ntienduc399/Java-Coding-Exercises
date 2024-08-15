@@ -10,7 +10,7 @@ public class kindOfTriangle {
     public static int whichTriangle(int a, int b, int c){
         if(a> 0 && b>0 && c>0 && a+ b > c && a+c >b && c+b >a){//check whether its a valid triangle first;
             if(a==b && b==c){return 1;}
-            if((a==b)|| (a==c || (c==b)){return 2;}
+            if((a==b)|| (a==c || (c==b))){return 2;}
             if((a*a + b*b == c*c)||(a*a+c*c==b*b) ||(b*b+c*c==a*a)){return 3;}
             return 4;
         }
