@@ -24,8 +24,7 @@ public class systematicallyIncreasing {
         System.out.println(isSystematicallyIncreasing(new int[]{1, 1, 3} ));//0
         System.out.println(isSystematicallyIncreasing(new int[]{1, 2, 1, 2, 1, 2} ));//0
         System.out.println(isSystematicallyIncreasing(new int[]{1} ));//1
-
-
+        
 
     }
 }
